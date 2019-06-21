@@ -10,11 +10,11 @@ module.exports = {
 
   plugins: [
     {
-      // Create posts from markdown files
+      // Create paintings from markdown files
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Post',
-        path: 'content/posts/*.md',
+        typeName: 'Artwork',
+        path: 'content/artworks/*.md',
         route: '/:slug',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
