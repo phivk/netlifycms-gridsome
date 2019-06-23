@@ -2,16 +2,11 @@
   <div class="artwork-card content-box" :class="{'artwork-card--has-poster' : artwork.poster}">
     <div class="artwork-card__header">
       <g-image alt="Cover image" v-if="artwork.coverImage" class="artwork-card__image" :src="artwork.coverImage" />
-    </div>
-    <div class="artwork-card__content">
-      <h2 class="artwork-card__title" v-html="artwork.title" />
-      <p class="artwork-card__description" v-html="artwork.description" />
-      
-      <ArtworkMeta class="artwork-card__meta" :artwork="artwork" />
-      <ArtworkTags class="artwork-card__tags" :artwork="artwork" />
-
       <g-link class="artwork-card__link" :to="artwork.path">Link</g-link>
     </div>
+    <!-- <div class="artwork-card__content">
+      <h2 class="artwork-card__title" v-if="artwork.title" v-html="artwork.title" />
+    </div> -->
   </div>
 </template>
 
@@ -36,7 +31,7 @@ export default {
   &__header {
     margin-left: calc(var(--space) * -1);
     margin-right: calc(var(--space) * -1);
-    margin-bottom: calc(var(--space) / 2);
+    margin-bottom: calc(var(--space) * -1);
     margin-top: calc(var(--space) * -1);
     overflow: hidden;
     border-radius: var(--radius) var(--radius) 0 0;
