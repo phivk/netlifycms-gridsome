@@ -10,7 +10,9 @@
 		</p>
 
 		<p class="author__links">
-			<a href="https://instagram.com/irieezamble/">Follow on Instagram</a>
+			<a href="/">Paintings</a>
+			<a href="/drawings">Drawings</a>
+			<a href="https://instagram.com/irieezamble/">Instagram ➚</a>
 		</p>
 
 	</div>

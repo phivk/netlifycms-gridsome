@@ -2,22 +2,22 @@
   <Layout>
     <div class="artwork-title">
       <h1 class="artwork-title__text">
-        {{ $page.artwork.title }}
+        {{ $page.painting.title }}
       </h1>
       
-      <ArtworkMeta :artwork="$page.artwork" />
+      <ArtworkMeta :artwork="$page.painting" />
 
     </div>
     
     <div class="artwork content-box">
       <div class="artwork__header">
-        <g-image alt="Cover image" v-if="$page.artwork.coverImage" :src="$page.artwork.coverImage" />
+        <g-image alt="Cover image" v-if="$page.painting.coverImage" :src="$page.painting.coverImage" />
       </div>
 
-      <div class="artwork__content" v-html="$page.artwork.content" />
+      <div class="artwork__content" v-html="$page.painting.content" />
 
       <div class="artwork__footer">
-        <ArtworkTags :artwork="$page.artwork" />
+        <ArtworkTags :artwork="$page.painting" />
       </div>
     </div>
 
@@ -42,11 +42,11 @@ export default {
   },
   metaInfo () {
     return {
-      title: this.$page.artwork.title,
+      title: this.$page.painting.title,
       meta: [
         {
           name: 'description',
-          content: this.$page.artwork.description
+          content: this.$page.painting.description
         }
       ]
     }
@@ -55,8 +55,8 @@ export default {
 </script>
 
 <page-query>
-query Artwork ($path: String!) {
-  artwork: artwork (path: $path) {
+query Painting ($path: String!) {
+  painting: painting (path: $path) {
     title
     path
     date (format: "D. MMMM YYYY")

@@ -13,9 +13,26 @@ module.exports = {
       // Create paintings from markdown files
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Artwork',
-        path: 'content/artworks/*.md',
-        route: '/:slug',
+        typeName: 'Painting',
+        path: 'content/paintings/*.md',
+        route: '/paintings/:slug',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'Tag',
+            route: '/tag/:id',
+            create: true
+          }
+        }
+      }
+    },
+    {
+      // Create drawings from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Drawing',
+        path: 'content/drawings/*.md',
+        route: '/drawings/:slug',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {

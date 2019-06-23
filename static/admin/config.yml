@@ -4,9 +4,9 @@ backend:
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 collections:
-  - name: "artworks" # Used in routes, e.g., /admin/collections/blog
-    label: "Artworks" # Used in the UI
-    folder: "content/artworks" # The path to the folder where the documents are stored
+  - name: "paintings" # Used in routes, e.g., /admin/collections/blog
+    label: "Paintings" # Used in the UI
+    folder: "content/paintings" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     extension: 'md'
@@ -17,6 +17,22 @@ collections:
         name: "tags"
         widget: "list"
         field: {label: Name, name: name, widget: string, default: "tag"}
-      - {label: "Cover Image", name: "coverImage", widget: "image", required: false}
+      - {label: "Cover Image", name: "coverImage", widget: "image", required: true}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "drawings" # Used in routes, e.g., /admin/collections/blog
+    label: "Drawings" # Used in the UI
+    folder: "content/drawings" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    extension: 'md'
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        field: {label: Name, name: name, widget: string, default: "tag"}
+      - {label: "Cover Image", name: "coverImage", widget: "image", required: true}
       - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}

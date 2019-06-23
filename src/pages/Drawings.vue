@@ -1,11 +1,11 @@
 <template>
-  <Layout :show-logo="false">
+  <Layout :show-logo="true">
     <!-- Author intro -->
     <Author :show-title="true" />
 
-    <!-- List paintings -->
-    <div class="paintings">
-      <ArtworkCard v-for="edge in $page.paintings.edges" :key="edge.node.id" :artwork="edge.node"/>
+    <!-- List drawings -->
+    <div class="drawings">
+      <ArtworkCard v-for="edge in $page.drawings.edges" :key="edge.node.id" :artwork="edge.node"/>
     </div>
 
   </Layout>
@@ -13,7 +13,7 @@
 
 <page-query>
 {
-  paintings: allPainting {
+  drawings: allDrawing {
     edges {
       node {
         id
@@ -28,7 +28,7 @@
         timeToRead
         description
         coverImage (width: 770, height: 380, blur: 10)
-        ...on Painting {
+        ...on Drawing {
             id
             title
             path
