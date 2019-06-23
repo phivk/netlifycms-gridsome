@@ -17,7 +17,7 @@
       <div class="artwork__content" v-html="$page.drawing.content" />
 
       <div class="artwork__footer">
-        <ArtworkTags :artwork="$page.drawing" />
+        <!-- <ArtworkTags :artwork="$page.drawing" /> -->
       </div>
     </div>
 
