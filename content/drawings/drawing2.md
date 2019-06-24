@@ -5,6 +5,7 @@ tags:
   - drawing
 coverImage: /images/uploads/n6.jpeg
 description: Fineliners, soft pastel, oil pastel on paper
+year: 2019
+material: Fineliners, soft pastel, oil pastel on paper
+dimensions: 29 x 21 cm
 ---
-2019
-29 x 21 cm

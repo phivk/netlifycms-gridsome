@@ -16,9 +16,9 @@
 
       <div class="artwork__content" v-html="$page.painting.content" />
 
-      <div class="artwork__footer">
+      <!-- <div class="artwork__footer">
         <ArtworkTags :artwork="$page.painting" />
-      </div>
+      </div> -->
     </div>
 
     <div class="artwork-comments">
@@ -60,6 +60,9 @@ query Painting ($path: String!) {
     title
     path
     date (format: "D. MMMM YYYY")
+    year
+    material
+    dimensions
     timeToRead
     tags {
       id
@@ -80,6 +83,7 @@ query Painting ($path: String!) {
 }
 
 .artwork {
+  padding-bottom: 0;
 
   &__header {
     width: calc(100% + var(--space) * 2);
