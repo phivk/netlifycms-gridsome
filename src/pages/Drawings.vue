@@ -26,7 +26,6 @@
         }
         date (format: "D. MMMM YYYY")
         timeToRead
-        description
         coverImage (width: 770, height: 380, blur: 10)
         ...on Drawing {
             id
