@@ -46,7 +46,7 @@ export default {
       meta: [
         {
           name: 'description',
-          content: this.$page.painting.description
+          content: this.$page.painting.material + ' (' + this.$page.painting.year + ')'
         }
       ]
     }
@@ -69,7 +69,6 @@ query Painting ($path: String!) {
       title
       path
     }
-    description
     content
     coverImage (width: 860, blur: 10)
   }
