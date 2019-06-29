@@ -48,7 +48,7 @@ export default {
     ArtworkCard
   },
   metaInfo: {
-    title: 'Home'
+    title: 'Drawings'
   }
 }
 </script>
