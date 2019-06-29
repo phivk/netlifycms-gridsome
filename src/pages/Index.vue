@@ -2,38 +2,18 @@
   <Layout :show-logo="false">
     <!-- Author intro -->
     <Author :show-title="true" />
-
-    <!-- List paintings -->
-    <div class="paintings">
-      <ArtworkCard v-for="edge in $page.paintings.edges" :key="edge.node.id" :artwork="edge.node"/>
-    </div>
+    <ArtworkCard :artwork="$page.drawing"/>
 
   </Layout>
 </template>
 
 <page-query>
-{
-  paintings: allPainting {
-    edges {
-      node {
-        id
-        title
-        path
-        tags {
-          id
-          title
-          path
-        }
-        date (format: "D. MMMM YYYY")
-        timeToRead
-        coverImage (width: 770, height: 380, blur: 10)
-        ...on Painting {
-            id
-            title
-            path
-        }
-      }
-    }
+query {
+  drawing (path:"/drawings/there-ain-t-no-trouble-in-paradise") {
+    id
+    title
+    path
+    coverImage
   }
 }
 </page-query>
