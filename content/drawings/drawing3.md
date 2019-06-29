@@ -4,6 +4,7 @@ date: 2019-06-23T15:57:59.086Z
 tags:
   - drawing
 coverImage: /images/uploads/scan1.jpeg
+description: Pencil, soft pastel, oil stick on paper
 year: 2019
 material: Pencil, soft pastel, oil stick on paper
 dimensions: 29 x 21 cm
