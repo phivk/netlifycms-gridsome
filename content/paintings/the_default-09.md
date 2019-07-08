@@ -5,7 +5,7 @@ year: 2019
 tags:
   - painting
   - theDefault
-coverImage: /images/uploads/iriée_zamble-the_default-09.jpg
+coverImage: /images/uploads/iriee_zamble-the_default-09.jpg
 material: Acrylic on canvas
 dimensions: 50 x 35 cm
 ---
