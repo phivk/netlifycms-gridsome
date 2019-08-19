@@ -62,6 +62,7 @@ export default {
 		a {
 			margin: 0 .5em;
 			display: inline-block;
+			text-decoration: none;
 		}
 	}
 }
