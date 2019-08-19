@@ -9,4 +9,9 @@ export default function (Vue, { router, head, isClient }) {
   
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css'
+  })
 }
