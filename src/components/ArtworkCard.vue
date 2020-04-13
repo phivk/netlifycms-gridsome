@@ -1,74 +1,31 @@
 <template>
-  <div class="artwork-card content-box" :class="{'artwork-card--has-poster' : artwork.poster}">
-    <div class="artwork-card__header">
-      <g-image :alt="artwork.title" v-if="artwork.coverImage" class="artwork-card__image" :src="artwork.coverImage" />
-      <g-link class="artwork-card__link" :to="artwork.path">Link</g-link>
-    </div>
-    <!-- <div class="artwork-card__content">
-      <h2 class="artwork-card__title" v-if="artwork.title" v-html="artwork.title" />
-    </div> -->
+  <div class="">
+    <g-link :to="artwork.path">
+      <g-image
+        :alt="artwork.title"
+        v-if="artwork.coverImage"
+        :src="artwork.coverImage"
+      />
+    </g-link>
+    <g-link class="db" :to="artwork.path">{{ artwork.title }}</g-link>
   </div>
 </template>
 
 <script>
-import ArtworkMeta from '~/components/ArtworkMeta'
-import ArtworkTags from '~/components/ArtworkTags'
+import ArtworkMeta from "~/components/ArtworkMeta";
+import ArtworkTags from "~/components/ArtworkTags";
 
 export default {
   components: {
     ArtworkMeta,
-    ArtworkTags
+    ArtworkTags,
   },
-  props: ['artwork'],
-}
+  props: ["artwork"],
+};
 </script>
 
-<style lang="scss">
-.artwork-card {
-  margin-bottom: var(--space);
-  position: relative;
-
-  &__header {
-    margin-left: calc(var(--space) * -1);
-    margin-right: calc(var(--space) * -1);
-    margin-bottom: calc(var(--space) * -1);
-    margin-top: calc(var(--space) * -1);
-    overflow: hidden;
-    border-radius: var(--radius) var(--radius) 0 0;
-
-    &:empty {
-      display: none;
-    }
-  }
-
-  &__image {
-    min-width: 100%;
-  }
-
-  &__title {
-    margin-top: 0;
-  }
-
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 1px 10px 30px 0 rgba(0,0,0,.1);
-  }
-
-  &__tags {
-    z-index: 1;
-    position: relative;
-  }
-
-  &__link {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.0;
-    overflow: hidden;
-    text-indent: -9999px;
-    z-index: 0;
-  }
+<style scoped lang="scss">
+img {
+  max-height: calc(100vh - 2rem);
 }
 </style>

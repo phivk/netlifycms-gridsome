@@ -1,69 +1,38 @@
 <template>
-	<div class="author">
-
-		<h1 v-if="showTitle" class="author__site-title">
+	<div class="mt5 mb4 tc">
+		<h1 v-if="showTitle">
 			{{ $static.metaData.siteName }}
 		</h1>
 
-		<p class="author__intro">
+		<div v-if="showDescription">
 			{{ $static.metaData.siteDescription }}
-		</p>
+		</div>
 
-		<p class="author__links">
-			<a href="/paintings">Paintings</a>
-			<a href="/drawings">Drawings</a>
-			<a target="_blank" href="https://instagram.com/irieezamble/">Instagram&nbsp;➚</a>
-			<a target="_blank" href="mailto:irieezamble@gmail.com">Email&nbsp;➚</a>
-		</p>
-
+		<TheNavBar />
 	</div>
 </template>
 
 <static-query>
 query {
   metaData {
-    siteName
+    siteName,
+    siteDescription
   }
 }
 </static-query>
 
 <script>
+import TheNavBar from "~/components/TheNavBar";
 export default {
-	props: ['showTitle']
-}
+	components: {
+		TheNavBar,
+	},
+	props: ["showTitle", "showDescription"],
+};
 </script>
 
 <style lang="scss">
-.author {
-	margin: 0 auto;
-	max-width: 500px;
-	text-align: center;
-	padding-bottom: calc(var(--space) / 2);
-
-	&__image {
-		border-radius: 100%;
-		width: 90px;
-		height: 90px;
-		margin-bottom: 1em;
-	}
-
-	&__intro {
-		opacity: .8;
-	}
-
-	&__site-title {
-		margin: 0 auto;
-		font-size: 1.5em;
-		max-width: 400px;
-	}
-
-	&__links {
-		margin-top: -.5em;
-		a {
-			margin: 0 .5em;
-			display: inline-block;
-			text-decoration: none;
-		}
-	}
+.navbar a {
+	margin: 0.5rem;
 }
 </style>

@@ -18,6 +18,7 @@ body {
 a:not(.button) {
 	color: var(--link-color);
  	transition: opacity .2s;
+    text-decoration: none;
 	&:hover {
 		opacity: .6;
 	}

@@ -1,9 +1,32 @@
 <template>
   <Layout :show-logo="false">
     <!-- Author intro -->
-    <Author :show-title="true" />
-    <ArtworkCard :artwork="$page.drawing"/>
+    <Author :show-title="true" :show-description="true" />
 
+    <div class="flex justify-center">
+      <div class="mh3">
+        <g-link to="/paintings" class="db">
+          <h2>Paintings</h2>
+        </g-link>
+        <g-link to="/paintings">
+          <g-image
+            alt="Paintings"
+            src="/images/uploads/200_x_150_cm_Hooded_and_BootedFINAL.jpg"
+          />
+        </g-link>
+      </div>
+      <div class="mh3">
+        <g-link to="/drawings" class="db">
+          <h2>Drawings</h2>
+        </g-link>
+        <g-link to="/drawings">
+          <g-image
+            alt="Drawings"
+            src="/images/uploads/there-ain-t-no-trouble-in-paradise.jpg"
+          />
+        </g-link>
+      </div>
+    </div>
   </Layout>
 </template>
 
@@ -19,16 +42,22 @@ query {
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
-import ArtworkCard from '~/components/ArtworkCard.vue'
+import Author from "~/components/Author.vue";
+import ArtworkCard from "~/components/ArtworkCard.vue";
 
 export default {
   components: {
     Author,
-    ArtworkCard
+    ArtworkCard,
   },
   metaInfo: {
-    title: 'Home'
-  }
-}
+    title: "Home",
+  },
+};
 </script>
+
+<style scoped>
+img {
+  max-height: 100vh;
+}
+</style>
