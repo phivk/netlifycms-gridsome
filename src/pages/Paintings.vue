@@ -4,10 +4,14 @@
     <Author :show-title="true" />
 
     <!-- List paintings -->
-    <div class="paintings">
-      <ArtworkCard v-for="edge in $page.paintings.edges" :key="edge.node.id" :artwork="edge.node"/>
+    <div class="flex relative w-100 flex-wrap justify-center ph2">
+      <ArtworkCard
+        v-for="edge in $page.paintings.edges"
+        :key="edge.node.id"
+        :artwork="edge.node"
+        class="w-100 w-40-m w-20-l ma2"
+      />
     </div>
-
   </Layout>
 </template>
 
@@ -39,16 +43,16 @@
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
-import ArtworkCard from '~/components/ArtworkCard.vue'
+import Author from "~/components/Author.vue";
+import ArtworkCard from "~/components/ArtworkCard.vue";
 
 export default {
   components: {
     Author,
-    ArtworkCard
+    ArtworkCard,
   },
   metaInfo: {
-    title: 'Paintings'
-  }
-}
+    title: "Paintings",
+  },
+};
 </script>
