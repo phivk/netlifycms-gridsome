@@ -12,14 +12,11 @@ collections:
     extension: 'md'
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        field: {label: Name, name: name, widget: string, default: "tag"}
-      - {label: "Cover Image", name: "coverImage", widget: "image", required: true}
-      - {label: "Description", name: "description", widget: "markdown"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Material", name: "material", widget: "string"}
+      - {label: "Dimensions", name: "dimensions", widget: "string"}
+      - {label: "Image", name: "coverImage", widget: "image", required: true}
+      - {label: "Description", name: "description", widget: "markdown", required: false}
   - name: "drawings" # Used in routes, e.g., /admin/collections/blog
     label: "Drawings" # Used in the UI
     folder: "content/drawings" # The path to the folder where the documents are stored
@@ -28,11 +25,8 @@ collections:
     extension: 'md'
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - label: "Tags"
-        name: "tags"
-        widget: "list"
-        field: {label: Name, name: name, widget: string, default: "tag"}
-      - {label: "Cover Image", name: "coverImage", widget: "image", required: true}
-      - {label: "Description", name: "description", widget: "markdown"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Year", name: "year", widget: "string"}
+      - {label: "Material", name: "material", widget: "string"}
+      - {label: "Dimensions", name: "dimensions", widget: "string"}
+      - {label: "Image", name: "coverImage", widget: "image", required: true}
+      - {label: "Description", name: "description", widget: "markdown", required: false}
