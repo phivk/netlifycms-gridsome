@@ -26,6 +26,6 @@ export default {
 
 <style scoped lang="scss">
 img {
-  max-height: 100vh;
+  max-height: calc(100vh - 2rem);
 }
 </style>
