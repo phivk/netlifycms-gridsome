@@ -1,18 +1,19 @@
 <template>
   <Layout>
-    <div class="tc">
+    <div class="tc mt5">
       <h1>
         {{ $page.drawing.title }}
       </h1>
 
       <ArtworkMeta :artwork="$page.drawing" />
 
-      <g-image
-        alt="Cover image"
-        v-if="$page.drawing.coverImage"
-        :src="$page.drawing.coverImage"
-        class="mt3"
-      />
+      <div class="mt3 pa3">
+        <g-image
+          alt="Cover image"
+          v-if="$page.drawing.coverImage"
+          :src="$page.drawing.coverImage"
+        />
+      </div>
     </div>
 
     <!-- <div class="artwork__footer">
