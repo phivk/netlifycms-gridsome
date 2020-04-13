@@ -14,11 +14,11 @@
           :src="$page.drawing.coverImage"
         />
       </div>
-    </div>
-
-    <!-- <div class="artwork__footer">
+      <TheNavBar />
+      <!-- <div class="artwork__footer">
         <ArtworkTags :artwork="$page.drawing" />
       </div> -->
+    </div>
   </Layout>
 </template>
 
@@ -26,12 +26,14 @@
 import ArtworkMeta from "~/components/ArtworkMeta";
 import ArtworkTags from "~/components/ArtworkTags";
 import Author from "~/components/Author.vue";
+import TheNavBar from "~/components/TheNavBar";
 
 export default {
   components: {
     Author,
     ArtworkMeta,
     ArtworkTags,
+    TheNavBar,
   },
   metaInfo() {
     return {

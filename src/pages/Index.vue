@@ -1,7 +1,7 @@
 <template>
   <Layout :show-logo="false">
     <!-- Author intro -->
-    <Author :show-title="true" />
+    <Author :show-title="true" :show-description="true" />
 
     <div class="flex justify-center">
       <div class="mh3">
