@@ -17,7 +17,7 @@
 
 <page-query>
 {
-  paintings: allPainting {
+  paintings: allPainting(sortBy: "date", order: DESC) {
     edges {
       node {
         id
