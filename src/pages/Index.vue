@@ -11,7 +11,7 @@
         <g-link to="/paintings">
           <g-image
             alt="Paintings"
-            src="/images/uploads/200_x_150_cm_Hooded_and_BootedFINAL.jpg"
+            src="/images/uploads/hooded-and-booted.jpg"
           />
         </g-link>
       </div>
