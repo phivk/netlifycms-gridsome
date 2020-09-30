@@ -1,5 +1,5 @@
 ---
-title: Untitled
+title: Waiting game
 year: "2020"
 material: Acrylics on canvas
 dimensions: 50 x 35 cm
