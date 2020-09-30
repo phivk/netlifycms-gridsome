@@ -3,6 +3,7 @@
 		<a href="/paintings">Paintings</a>
 		<a href="/drawings">Drawings</a>
     <a href="/cv">CV</a>
+    <a href="/about">About</a>
 		<a target="_blank" href="https://instagram.com/irieezamble/"
 			>Instagram&nbsp;➚</a
 		>
