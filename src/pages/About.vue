@@ -14,7 +14,7 @@
       </p>
 
       <figure class="mw5">
-        <img src="/images/Iriée Zamblé - Museum Het Rembrandthuis Fotografie Mark Bolk.jpg" alt="Iriée Zamblé at Museum Het Rembrandthuis">
+        <img src="/images/Iriée_Zamblé_-_Museum_Het_Rembrandthuis_Fotografie_Mark_Bolk.jpg" alt="Iriée Zamblé at Museum Het Rembrandthuis">
         <figcaption class="f7">Photo: Mark Bolk</figcaption>
       </figure>
 
