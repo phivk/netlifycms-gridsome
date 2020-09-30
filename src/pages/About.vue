@@ -29,7 +29,7 @@ export default {
     Author,
   },
   metaInfo: {
-    title: "CV",
+    title: "About",
   },
 };
 </script>
