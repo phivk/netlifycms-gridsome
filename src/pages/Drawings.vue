@@ -17,7 +17,7 @@
 
 <page-query>
 {
-  drawings: allDrawing(sortBy: "date", order: DESC) {
+  drawings: allDrawing(sortBy: "dateCreated", order: DESC) {
     edges {
       node {
         id
