@@ -13,6 +13,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Year", name: "year", widget: "string"}
+      - {label: "Date Created", name: "dateCreated", widget: "string"}
       - {label: "Material", name: "material", widget: "string"}
       - {label: "Dimensions", name: "dimensions", widget: "string"}
       - {label: "Image", name: "coverImage", widget: "image", required: true}
@@ -26,6 +27,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Year", name: "year", widget: "string"}
+      - {label: "Date Created", name: "dateCreated", widget: "string"}
       - {label: "Material", name: "material", widget: "string"}
       - {label: "Dimensions", name: "dimensions", widget: "string"}
       - {label: "Image", name: "coverImage", widget: "image", required: true}
