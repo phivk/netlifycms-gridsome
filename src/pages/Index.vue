@@ -1,42 +1,48 @@
 <template>
   <Layout :show-logo="false">
-    <!-- Author intro -->
-    <Author :show-title="true" :show-description="true" />
-
-    <div class="flex justify-center">
-      <div class="mh3">
-        <g-link to="/paintings" class="db">
-          <h2>Paintings</h2>
-        </g-link>
-        <g-link to="/paintings">
-          <g-image
-            alt="Paintings"
-            src="/images/uploads/hooded-and-booted.jpg"
-          />
-        </g-link>
-      </div>
-      <div class="mh3">
-        <g-link to="/drawings" class="db">
-          <h2>Drawings</h2>
-        </g-link>
-        <g-link to="/drawings">
-          <g-image
-            alt="Drawings"
-            src="/images/uploads/there-ain-t-no-trouble-in-paradise.jpg"
-          />
-        </g-link>
-      </div>
-    </div>
+    <Author :show-title="true" />
+    <main>
+      <h2 class="tc">Exhibitions</h2>
+      <ul class="list pa0 ma0 flex flex-wrap flex-nowrap-ns items-start">
+        <li
+          class="pa2 pa3-l mw6 w-100 w-third-ns"
+          :class="{
+            'w-50-ns-i': edge.node.isFeatured,
+            'mt5-l mt4-m': !edge.node.isFeatured,
+          }"
+          v-for="edge in $page.expos.edges"
+          :key="edge.node.id"
+        >
+          <article>
+            <a :href="edge.node.link" target="_blank">
+              <g-image :alt="edge.node.title" :src="edge.node.coverImage" />
+            </a>
+            <h3 class="ma0 f5 f4-l">{{ edge.node.title }}</h3>
+            <div class="f6 f5-l">{{ edge.node.dates }}</div>
+            <a class="f6 f5-l" :href="edge.node.link" target="_blank">
+              {{ edge.node.location }}
+            </a>
+          </article>
+        </li>
+      </ul>
+    </main>
   </Layout>
 </template>
 
 <page-query>
 query {
-  drawing (path:"/drawings/there-ain-t-no-trouble-in-paradise") {
-    id
-    title
-    path
-    coverImage
+  expos: allExhibition(sortBy: "sortOrder", order: ASC) {
+    edges {
+      node {
+        id
+        title
+        dates
+        location
+        link
+        coverImage
+        isFeatured
+      }
+    }
   }
 }
 </page-query>
@@ -59,5 +65,10 @@ export default {
 <style scoped>
 img {
   max-height: 100vh;
+}
+@media (min-width: 30em) {
+  .w-50-ns-i {
+    width: 50% !important;
+  }
 }
 </style>

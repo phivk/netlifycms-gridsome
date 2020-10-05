@@ -27,7 +27,10 @@ export default {
 	components: {
 		TheNavBar,
 	},
-	props: ["showTitle", "showDescription"],
+	props: {
+    "showTitle": {type: Boolean, default: true},
+    "showDescription": {type: Boolean, default: false},
+  },
 };
 </script>
 

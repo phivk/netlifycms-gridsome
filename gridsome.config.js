@@ -42,6 +42,15 @@ module.exports = {
           }
         }
       }
+    },
+    {
+      // Create exhibitions from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Exhibition',
+        path: 'content/exhibitions/*.md',
+        route: '/exhibitions/:slug'
+      }
     }
   ],
 

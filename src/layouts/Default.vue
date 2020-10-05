@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="pa2 pa3-ns">
 
     <header>
       <div>
