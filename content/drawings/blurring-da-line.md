@@ -1,5 +1,5 @@
 ---
-title: Blurring da line
+title: Blurring da lines
 year: "2020"
 dateCreated: 2020-10-12
 material: Oil pastel, soft pastel, fineliner
