@@ -1,12 +1,12 @@
 ---
-title: The default (16)
+title: The default (7)
 date: 2019-07-08T13:57:59.086Z
 year: 2019
-dateCreated: 2019-01-01
+dateCreated: 2019-09-01
 tags:
   - painting
   - theDefault
-coverImage: /images/uploads/iriee_zamble-the_default-16.jpg
 material: Acrylic on canvas
 dimensions: 50 x 35 cm
+coverImage: /images/uploads/iriee_zamble-the_default-16.jpg
 ---
