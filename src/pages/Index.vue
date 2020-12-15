@@ -3,12 +3,13 @@
     <Author :show-title="true" />
     <main>
       <h2 class="tc">Exhibitions</h2>
-      <ul class="list pa0 ma0 flex flex-wrap flex-nowrap-ns items-start">
+      <ul class="list pa0 ma0 flex flex-wrap flex-nowrap-ns items-start content-center">
         <li
+          v-if="!edge.node.hidden"
           class="pa2 pa3-l mw6 w-100 w-third-ns"
           :class="{
-            'w-50-ns-i': edge.node.isFeatured,
-            'mt5-l mt4-m': !edge.node.isFeatured,
+            'w-50-ns-i': edge.node.featured,
+            'mt5-l mt4-m': !edge.node.featured,
           }"
           v-for="edge in $page.expos.edges"
           :key="edge.node.id"
@@ -40,7 +41,8 @@ query {
         location
         link
         coverImage
-        isFeatured
+        featured
+        hidden
       }
     }
   }
