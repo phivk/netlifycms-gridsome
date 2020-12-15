@@ -3,7 +3,7 @@
     <Author :show-title="true" />
     <main>
       <h2 class="tc">Exhibitions</h2>
-      <ul class="list pa0 ma0 flex flex-wrap flex-nowrap-ns items-start content-center">
+      <ul class="list pa0 ma0 flex flex-wrap flex-nowrap-ns items-start justify-center">
         <li
           v-if="!edge.node.hidden"
           class="pa2 pa3-l mw6 w-100 w-third-ns"
