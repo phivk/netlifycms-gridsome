@@ -9,13 +9,16 @@
         Lives and works in Rotterdam, The Netherlands
       </p>
       
-      <h2>Education / Residencies</h2>
+      <h2>Education</h2>
       <ul class="list ma0">
-        <li class="flex-ns"><strong class="dib-ns w4-ns flex-shrink-0">2020 - 2021</strong> Roodkapje Rotterdam</li>
-        <li class="flex-ns"><strong class="dib-ns w4-ns flex-shrink-0">2020</strong> Museum het Rembrandthuis, Open studio, together with Timothy Voges</li>
         <li class="flex-ns"><strong class="dib-ns w4-ns flex-shrink-0">2015 - 2019</strong>  Bachelor of Fine Arts, Hogeschool voor de Kunsten Utrecht (with honours)</li>
       </ul>
 
+      <h2>Residencies</h2>
+      <ul class="list ma0">
+        <li class="flex-ns"><strong class="dib-ns w4-ns flex-shrink-0">2020 - 2021</strong> Roodkapje Rotterdam</li>
+        <li class="flex-ns"><strong class="dib-ns w4-ns flex-shrink-0">2020</strong> Museum het Rembrandthuis, Open studio, together with Timothy Voges</li>
+      </ul>
 
       <h2>Upcoming exhibitions</h2>
       <ul class="list ma0">
@@ -70,21 +73,18 @@
         <li class="flex-ns"><strong class="dib-ns w4-ns flex-shrink-0">2019</strong> <span>How your jobs shapes your identity - <b>Soho house Amsterdam</b></span></li>
         <li class="flex-ns"><strong class="dib-ns w4-ns flex-shrink-0">2019</strong> <span>Museum ft. Instagram - <b>Pakhuis de Zwijger</b> <br>Looking at art in times of selfie culture; looking for the balance between art experience and instagram experiences.</span></li>
         <li class="flex-ns"><strong class="dib-ns w4-ns flex-shrink-0">2019</strong> <span><a href="https://dezwijger.nl/programma/uncovering-creatives" target="_blank">(Un)covering creatives</a> - <b>Pakhuis de Zwijger</b> <br>New generation of creators of color are conquering the big cities.</span></li>
-        <!-- <li class="flex-ns"><strong class="dib-ns w4-ns flex-shrink-0">2020</strong> <a href="https://www.vogue.nl/cultuur/cultuur-interviews/a32904717/blacklivesmatter-kunst-zwarte-makers-creatieven/">Vogue - #VogueStories: deze kunstenaars doen je het belang van 'Black Lives Matter' nóg beter begrijpen</a></li>
+        <li class="flex-ns"><strong class="dib-ns w4-ns flex-shrink-0">2020</strong> <a href="https://www.vogue.nl/cultuur/cultuur-interviews/a32904717/blacklivesmatter-kunst-zwarte-makers-creatieven/">Vogue - #VogueStories: deze kunstenaars doen je het belang van 'Black Lives Matter' nóg beter begrijpen</a></li>
         <li class="flex-ns"><strong class="dib-ns w4-ns flex-shrink-0">2018</strong> <a href="https://www.nrc.nl/nieuws/2018/11/29/de-galerie-op-je-scherm-2-a2828826">NRC Handelsblad - Hoe Instagram de kunstmarkt opschudt</a></li>
-        <li class="flex-ns"><strong class="dib-ns w4-ns flex-shrink-0">2018</strong> <a href="https://schonmagazine.com/the-panther/">Schön Magazine! - the panther</a></li> -->
+        <li class="flex-ns"><strong class="dib-ns w4-ns flex-shrink-0">2018</strong> <a href="https://schonmagazine.com/the-panther/">Schön Magazine! - the panther</a></li>
       </ul>
       
       <h2>Collections</h2>
       <ul class="list ma0">
-        <li>Ministry of Foreign affairs </li>
+        <li>Museum het Rembrandthuis</li>
+        <li>Ministry of Foreign affairs</li>
         <li>KPMG</li>
         <li>Isala Hospital Zwolle</li>
       </ul>
-      
-
-
-      
     </div>
 
   </Layout>
