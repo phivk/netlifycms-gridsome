@@ -5,4 +5,5 @@ location: Roodkapje Rotterdam
 link: https://www.facebook.com/events/124392199351366/
 coverImage: /images/uploads/read-the-room.png
 sortOrder: 1
+hidden: true
 ---
