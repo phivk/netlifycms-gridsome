@@ -195,15 +195,17 @@
           <strong class="dib-ns w4-ns flex-shrink-0">2020</strong>
           <a
             href="http://www.metropolism.com/nl/features/42232_play_and_fight_iri_e_zambl_and_the_importance_of_taking_up_your_space"
-            >Metropolis M - Play and Fight: Iriée Zamblé and the importance of taking up your space</a
+            >Metropolis M - Play and Fight: Iriée Zamblé and the importance of
+            taking up your space</a
           >
         </li>
         <li class="flex-ns">
           <strong class="dib-ns w4-ns flex-shrink-0">2020</strong>
           <a
             href="https://www.parool.nl/ps/de-muren-van-west-ik-hoop-dat-de-buurt-zich-erin-herkent~b91df7939/"
-            >Het Parool - De Muren van West: ‘Ik hoop dat de buurt zich erin herkent’ </a
-          >
+            >Het Parool - De Muren van West: ‘Ik hoop dat de buurt zich erin
+            herkent’
+          </a>
         </li>
         <li class="flex-ns">
           <strong class="dib-ns w4-ns flex-shrink-0">2020</strong>
@@ -248,6 +250,59 @@
           <strong class="dib-ns w4-ns flex-shrink-0">2018</strong>
           <a href="https://schonmagazine.com/the-panther/"
             >Schön Magazine! - the panther</a
+          >
+        </li>
+      </ul>
+
+      <h2>Panels</h2>
+      <ul class="list ma0">
+        <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2020</strong>
+          <span
+            ><a href="https://dezwijger.nl/programma/visibility" target="_blank"
+              >Visibility</a
+            >
+            - <b>Pakhuis de Zwijger</b> <br />How do you use your creative work
+            to make the "invisible" visible and also put yourself on the
+            map?</span
+          >
+        </li>
+        <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2019</strong>
+          <span
+            ><a
+              href="https://museumnacht.amsterdam/programma/164/alkebulan-presents-identity-culture- art-talk/"
+              target="_blank"
+              >Alkebulan presents: Identity, Culture & Art Talk</a
+            >
+            - <b>Museumnacht Amsterdam, Van Gogh Museum</b>.</span
+          >
+        </li>
+        <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2019</strong>
+          <span
+            >How your jobs shapes your identity -
+            <b>Soho house Amsterdam</b></span
+          >
+        </li>
+        <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2019</strong>
+          <span
+            >Museum ft. Instagram - <b>Pakhuis de Zwijger</b> <br />Looking at
+            art in times of selfie culture; looking for the balance between art
+            experience and instagram experiences.</span
+          >
+        </li>
+        <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2019</strong>
+          <span
+            ><a
+              href="https://dezwijger.nl/programma/uncovering-creatives"
+              target="_blank"
+              >(Un)covering creatives</a
+            >
+            - <b>Pakhuis de Zwijger</b> <br />New generation of creators of
+            color are conquering the big cities.</span
           >
         </li>
       </ul>
