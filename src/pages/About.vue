@@ -4,13 +4,13 @@
     <Author :show-title="true" />
     <div class="measure-wide center pa2">
       <h1>About</h1>
-
-      <h2>Iriée Zamblé (1995, Amsterdam)</h2>
+      <h2>ENG</h2>
       <p>
-        Expressively painted figures of self-assured black people are playing the lead in Iriée Zamblé’s work. Zamblé puts a magnifying glass upon some of the passengers that pass us daily, but are nonetheless underrepresented in art today . Acquaintances, passengers and friends lay at the base of the paintings. By appropriating details of their appearance, Zamblé shapes a new, bold and vivid figure. The portrayed are depicted to present themselves as a norm in it’s variety.  With the title being "The default (series)" Iriée positions people of color as a standard rather than an exception.
+        Iriée Zamblé (1995) takes notice of the lack of dignified images of Afro-Dutch within a Dutch context, Zamblé’s paintings are informed by the people she knows and passes by everyday, and the lack of interest that seems to surround them. By appropriating details of their appearance, Zamblé forms new and powerful figures. She praises control and ownership through her paintings and influences the collective way black consciousness is shaped. 
       </p>
-      <p class="i">
-        "In Western society we look at humanness and humanity through the lens of whiteness. By using my own lens and frame of references, I want to paint a more realistic picture of who and what I see when I walk to the supermarket, for example. I think it is necessary to offer an alternative perspective within the visual arts so that humanity is not viewed through one general lens."
+      <h2>NL</h2>
+      <p> 
+        Iriée Zamblé (1995) signaleert het gebrek aan waardige beelden van Afro-Nederlanders binnen een Nederlandse context. Haar schilderijen en tekeningen zijn geïnspireerd door de mensen die zij dagelijks passeert, en het gebrek aan interesse dat hen lijkt te omringen. Door details van hun uiterlijk toe te eigenen, vormt Zamblé nieuwe en krachtige figuren. Ze staat voor zelfbeschikking en controle door middel van haar schilderijen en beïnvloedt de collectieve manier waarop het zwarte bewustzijn wordt gevormd. 
       </p>
 
       <figure class="mw5">
