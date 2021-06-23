@@ -39,7 +39,7 @@
 
 <page-query>
 query {
-  expos: allExhibition(filter: { hidden: { ne: true }}) {
+  expos: allExhibition(filter: { hidden: { ne: true }}, sortBy: "sortOrder", order: ASC ) {
     edges {
       node {
         id
@@ -49,6 +49,7 @@ query {
         link
         coverImage
         featured
+        sortOrder
         hidden
       }
     }
