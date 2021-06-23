@@ -32,3 +32,17 @@ collections:
       - {label: "Dimensions", name: "dimensions", widget: "string"}
       - {label: "Image", name: "coverImage", widget: "image", required: true}
       - {label: "Description", name: "description", widget: "markdown", required: false}
+  - name: "exhibitions" # Used in routes, e.g., /admin/collections/blog
+    label: "Exhibitions" # Used in the UI
+    folder: "content/exhibitions" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    extension: 'md'
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Dates", name: "dates", widget: "string"}
+      - {label: "Location", name: "location", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
+      - {label: "Cover Image", name: "coverImage", widget: "image", required: true}
+      - {label: "Sort Order", name: "sortOrder", widget: "number", value_type: "int", min: 1}
+      - {label: "Hidden", name: "hidden", widget: "boolean", default: false}
