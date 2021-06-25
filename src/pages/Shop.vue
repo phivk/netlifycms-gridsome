@@ -24,7 +24,7 @@
       <div class="tl">
         <a class="dib bg-orange no-underline white pv2 ph3 f4 fw6 br3" href=" mailto:irieezamble+order@gmail.com?subject=irieezamble.net%20T-shirt%20Order%20&body=Hi%20Iri%C3%A9e!%0D%0A%0D%0AI'd%20like%20to%20order%20a%20T-shirt%20in%20size%3A%0D%0AS%20%2F%20M%20%2F%20L%20%2F%20XL%20(pick%20one)%0D%0A%0D%0AThanks%20in%20advance%20for%20sharing%20payment%20details.%0D%0AI%20understand%20that%20shipping%20can%20take%20a%20while.%0D%0A%0D%0AMany%20thanks%2C%0D%0A%0D%0A">Order here</a>
       </div>
-      <div class="full-width flex flex-nowrap flex-wrap-ns items-start justify-center pa3">
+      <div class="full-width flex flex-wrap flex-nowrap-ns items-start justify-center pa3">
         <img class="pa2 pa3-l w-100 w-50-ns" src="/images/uploads/webshop-1.jpg" alt="web shop 1">
         <img class="pa2 pa3-l w-100 w-50-ns" src="/images/uploads/webshop-2.jpg" alt="web shop 2">
       </div>
