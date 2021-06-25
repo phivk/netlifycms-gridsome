@@ -45,9 +45,6 @@ export default {
 </script>
 
 <style scoped>
-img {
-  max-height: 100vh;
-}
 .full-width {
   width: 100vw;
   position: relative;
