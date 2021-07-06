@@ -184,6 +184,17 @@
           <span
             >De Volkskrant -
             <a
+              href="https://www.volkskrant.nl/cultuur-media/kunstenaar-iriee-zamble-springt-eruit-op-art-rotterdam~b04546fd/"
+              target="_blank"
+              >Kunstenaar Iriée Zamblé springt eruit op Art Rotterdam </a
+            ></span
+          >
+        </li>
+        <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2021</strong>
+          <span
+            >De Volkskrant -
+            <a
               href="https://www.volkskrant.nl/cultuur-media/vrouwen-zijn-in-de-kunst-nog-altijd-zwaar-ondervertegenwoordigd-dit-zijn-er-een-paar-die-u-moet-kennen~bfdc409c/"
               target="_blank"
               >Vrouwen zijn in de kunst nog altijd zwaar ondervertegenwoordigd.
