@@ -16,6 +16,7 @@
             <span class="bg-light-green br2 ph2 pv1 dark-green">XL</span>
           </p>
           <p>Free shipping in NL</p>
+          <p>Handwash at cold temperature</p>
         </div>
         <div>
           <span class="br-pill ph3 pv2 white bg-green">€28</span>
