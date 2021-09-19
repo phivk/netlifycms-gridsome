@@ -1,4 +1,5 @@
 ---
+hidden: true
 title: KunstRAI 2021 (group show)
 dates: 8-12 September
 location: Booth 36, SBK Gallery

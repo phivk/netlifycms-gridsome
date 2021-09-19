@@ -1,4 +1,5 @@
 ---
+hidden: true
 title: Gathered self (group show)
 dates: 27 August - 26 September 2021
 location: Moving Gallery, Utrecht
