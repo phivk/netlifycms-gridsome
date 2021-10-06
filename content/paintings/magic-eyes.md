@@ -1,5 +1,5 @@
 ---
-title: Magic eyes
+title: Magic Eyes
 year: "2021"
 dateCreated: 2021-10-06
 material: Oil on canvas
