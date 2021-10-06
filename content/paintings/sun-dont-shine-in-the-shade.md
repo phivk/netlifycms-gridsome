@@ -1,5 +1,5 @@
 ---
-title: Sun don't shine in the shade
+title: "Sun don't shine in the shade  #blackouttuesday"
 year: 2020
 dateCreated: 2020-09-01
 material: Oil, spraypaint on canvas
