@@ -5,5 +5,6 @@ dateCreated: 2019-11-01
 material: various
 dimensions: various
 coverImage: /images/uploads/gevelexpo-irieezamble-13.jpg
-description: Graduation work exhibited on the Paradiso in Amsterdam
 ---
+
+Graduation work exhibited on the Paradiso in Amsterdam

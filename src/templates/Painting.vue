@@ -14,6 +14,9 @@
           :src="$page.painting.coverImage"
         />
       </div>
+
+      <div v-html="$page.painting.content" /></div>
+
       <TheNavBar />
       <!-- <div class="artwork__footer">
         <ArtworkTags :artwork="$page.painting" />

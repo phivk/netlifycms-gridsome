@@ -1,5 +1,5 @@
 <template>
-	<nav class="mv3 navbar">
+	<nav class="mv3 navbar tc">
 		<a class="dib" href="/paintings">Paintings</a>
 		<a class="dib" href="/drawings">Drawings</a>
 		<a class="dib" href="/shop">Shop</a>
