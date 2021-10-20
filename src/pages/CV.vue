@@ -33,21 +33,37 @@
       <h2>Upcoming exhibitions</h2>
       <ul class="list ma0">
         <li class="flex-ns">
-          <strong class="dib-ns w4-ns flex-shrink-0">2021</strong> Solo
-          exhibition, Roodkapje, Rotterdam
-        </li>
-        <li class="flex-ns">
-          <strong class="dib-ns w4-ns flex-shrink-0">2021</strong> Solo
-          exhibition, SBK, Amsterdam
-        </li>
-        <li class="flex-ns">
-          <strong class="dib-ns w4-ns flex-shrink-0">2021</strong> KunstRAI,
-          Amsterdam
+          <strong class="dib-ns w4-ns flex-shrink-0">27 Nov - 9 Dec 2021</strong>
+          Solo show Roodkapje Rotterdam
         </li>
       </ul>
 
       <h2>Selected exhibitions</h2>
       <ul class="list ma0">
+        <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2021</strong>
+          Unfair Solo show ‘’Ensemble’’
+        </li>
+        <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2021</strong>
+          Art Rotterdam Solo show in collaboration with Brinkman & Bergsma
+        </li>
+        <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2021</strong>
+          KunstRAI in collaboration with SBK Gallery 
+        </li>
+        <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2021</strong>
+          Gathered self - Moving Gallery Utrecht
+        </li>
+        <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2021</strong>
+          BEcoming-  Motormond
+        </li>
+        <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2021</strong>
+          Paradiso Facade exhibition
+        </li>
         <li class="flex-ns">
           <strong class="dib-ns w4-ns flex-shrink-0">2020</strong> Read the room
           - Roodkapje Rotterdam, duo show with Kenneth Aidoo
@@ -113,6 +129,10 @@
       <h2>Nominations / Awards</h2>
       <ul class="list ma0">
         <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2021</strong>
+          <span>Art Award Business Art Service & Kunst.nl <span class="i">Nominee</span></span>
+        </li>
+        <li class="flex-ns">
           <strong class="dib-ns w4-ns flex-shrink-0">2020</strong>
           <span>Royal Prize of Painting <span class="i">Nominee</span></span>
         </li>
@@ -135,6 +155,10 @@
 
       <h2>Projects</h2>
       <ul class="list ma0">
+        <li class="flex-ns">
+          <strong class="dib-ns w4-ns flex-shrink-0">2021</strong> 
+          Rijksmuseum Masterclass portrait painting for kids
+        </li>
         <li class="flex-ns">
           <strong class="dib-ns w4-ns flex-shrink-0">2020</strong> Curating
           guest lecturer program HKU
@@ -320,6 +344,8 @@
 
       <h2>Collections</h2>
       <ul class="list ma0">
+        <li>Stedelijk Museum Schiedam</li>
+        <li>Ahold</li>
         <li>Museum het Rembrandthuis</li>
         <li>Ministry of Foreign affairs</li>
         <li>KPMG</li>
