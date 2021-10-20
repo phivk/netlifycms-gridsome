@@ -17,7 +17,6 @@ collections:
       - {label: "Material", name: "material", widget: "string"}
       - {label: "Dimensions", name: "dimensions", widget: "string"}
       - {label: "Image", name: "coverImage", widget: "image", required: true}
-      - {label: "Description", name: "description", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "drawings" # Used in routes, e.g., /admin/collections/blog
     label: "Drawings" # Used in the UI
@@ -32,7 +31,6 @@ collections:
       - {label: "Material", name: "material", widget: "string"}
       - {label: "Dimensions", name: "dimensions", widget: "string"}
       - {label: "Image", name: "coverImage", widget: "image", required: true}
-      - {label: "Description", name: "description", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "exhibitions" # Used in routes, e.g., /admin/collections/blog
     label: "Exhibitions" # Used in the UI
