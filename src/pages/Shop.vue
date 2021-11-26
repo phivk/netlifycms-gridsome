@@ -15,7 +15,7 @@
             <span class="bg-light-green br2 ph2 pv1 dark-green">L</span>/
             <span class="bg-light-green br2 ph2 pv1 dark-green">XL</span>
           </p>
-          <p>Free shipping in NL</p>
+          <p>Price excludes shipping (€4,10)</p>
           <p>Handwash at cold temperature</p>
         </div>
         <div>
