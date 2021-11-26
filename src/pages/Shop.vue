@@ -19,7 +19,7 @@
           <p>Handwash at cold temperature</p>
         </div>
         <div>
-          <span class="br-pill ph3 pv2 white bg-green">€28</span>
+          <span class="br-pill ph3 pv2 white bg-green">€32</span>
         </div>
       </div>
       <div class="tl">
