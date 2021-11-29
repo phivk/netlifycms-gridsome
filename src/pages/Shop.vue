@@ -15,11 +15,11 @@
             <span class="bg-light-green br2 ph2 pv1 dark-green">L</span>/
             <span class="bg-light-green br2 ph2 pv1 dark-green">XL</span>
           </p>
-          <p>Price excludes shipping (€4,10)</p>
+          <p>Price includes shipping in NL</p>
           <p>Handwash at cold temperature</p>
         </div>
         <div>
-          <span class="br-pill ph3 pv2 white bg-green">€32</span>
+          <span class="br-pill ph3 pv2 white bg-green">€35</span>
         </div>
       </div>
       <div class="tl">
