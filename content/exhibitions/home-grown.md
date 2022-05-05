@@ -5,5 +5,5 @@ location: Roodkapje Rotterdam
 link: https://www.instagram.com/p/CWVmNbooDGr/
 coverImage: /images/uploads/ljs20211202279-edit.jpg
 sortOrder: 1
-hidden: false
+hidden: true
 ---

@@ -54,7 +54,7 @@ query {
       }
     }
   },
-  homePaintings: allPainting( filter: { title: { eq: "Made u look" }}) {
+  homePaintings: allPainting( filter: { title: { eq: "Twice as nice" }}) {
     edges {
       node {
         title
