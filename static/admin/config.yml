@@ -77,3 +77,12 @@ collections:
           min: 1,
         }
       - { label: "Hidden", name: "hidden", widget: "boolean", default: false }
+  - name: "announcements" # Used in routes, e.g., /admin/collections/blog
+    label: "Announcements" # Used in the UI
+    folder: "content/announcements" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    extension: "md"
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Hidden", name: "hidden", widget: "boolean", default: false }
