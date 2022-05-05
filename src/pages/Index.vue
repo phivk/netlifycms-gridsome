@@ -4,7 +4,9 @@
     <main>
       <div v-if="$page.expos.edges.length">
         <h2 class="tc">Exhibitions</h2>
-        <ul class="list pa0 ma0 flex flex-wrap flex-nowrap-ns items-start justify-center">
+        <ul
+          class="list pa0 ma0 flex flex-wrap flex-nowrap-ns items-start justify-center"
+        >
           <li
             v-if="!edge.node.hidden"
             class="pa2 pa3-l mw6 w-100 w-third-ns"
@@ -29,9 +31,22 @@
         </ul>
       </div>
       <div class="tc" v-else>
-        <article>              
+        <article>
           <g-image :alt="homePainting.title" :src="homePainting.coverImage" />
         </article>
+      </div>
+      <div v-if="$page.announcements.edges.length">
+        <h2 class="tc">Announcements</h2>
+        <ul class="list tc">
+          <li
+            v-if="!edge.node.hidden"
+            class="ma2"
+            v-for="edge in $page.announcements.edges"
+            :key="edge.node.id"
+          >
+            <div v-html="edge.node.content" />
+          </li>
+        </ul>
       </div>
     </main>
   </Layout>
@@ -51,6 +66,16 @@ query {
         featured
         sortOrder
         hidden
+      }
+    }
+  },
+  announcements: allAnnouncement(filter: { hidden: { ne: true }}, sortBy: "dateCreated", order: ASC ) {
+    edges {
+      node {
+        title
+        dateCreated
+        hidden
+        content
       }
     }
   },
@@ -82,15 +107,11 @@ export default {
   metaInfo: {
     title: "Home",
   },
-  created () {
-    console.log("$page.homePaintings.edges", this.$page.homePaintings.edges);
-    console.log("this.homePainting", this.homePainting);
-  },
   computed: {
-    homePainting () {
+    homePainting() {
       return this.$page.homePaintings.edges[0].node;
     },
-  }
+  },
 };
 </script>
 
