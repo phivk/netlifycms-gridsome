@@ -9,40 +9,71 @@ collections:
     folder: "content/paintings" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    extension: 'md'
+    extension: "md"
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Year", name: "year", widget: "string"}
-      - {label: "Date Created", name: "dateCreated", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, }
-      - {label: "Material", name: "material", widget: "string"}
-      - {label: "Dimensions", name: "dimensions", widget: "string"}
-      - {label: "Image", name: "coverImage", widget: "image", required: true}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Year", name: "year", widget: "string" }
+      - {
+          label: "Date Created",
+          name: "dateCreated",
+          widget: "datetime",
+          format: "YYYY-MM-DD",
+          date_format: "YYYY-MM-DD",
+          time_format: false,
+        }
+      - { label: "Material", name: "material", widget: "string" }
+      - { label: "Dimensions", name: "dimensions", widget: "string" }
+      - { label: "Image", name: "coverImage", widget: "image", required: true }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+      - {
+          label: "Featured",
+          name: "featured",
+          widget: "boolean",
+          required: false,
+        }
   - name: "drawings" # Used in routes, e.g., /admin/collections/blog
     label: "Drawings" # Used in the UI
     folder: "content/drawings" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    extension: 'md'
+    extension: "md"
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Year", name: "year", widget: "string"}
-      - {label: "Date Created", name: "dateCreated", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, }
-      - {label: "Material", name: "material", widget: "string"}
-      - {label: "Dimensions", name: "dimensions", widget: "string"}
-      - {label: "Image", name: "coverImage", widget: "image", required: true}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Year", name: "year", widget: "string" }
+      - {
+          label: "Date Created",
+          name: "dateCreated",
+          widget: "datetime",
+          format: "YYYY-MM-DD",
+          date_format: "YYYY-MM-DD",
+          time_format: false,
+        }
+      - { label: "Material", name: "material", widget: "string" }
+      - { label: "Dimensions", name: "dimensions", widget: "string" }
+      - { label: "Image", name: "coverImage", widget: "image", required: true }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
   - name: "exhibitions" # Used in routes, e.g., /admin/collections/blog
     label: "Exhibitions" # Used in the UI
     folder: "content/exhibitions" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    extension: 'md'
+    extension: "md"
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Dates", name: "dates", widget: "string"}
-      - {label: "Location", name: "location", widget: "string"}
-      - {label: "Link", name: "link", widget: "string"}
-      - {label: "Cover Image", name: "coverImage", widget: "image", required: true}
-      - {label: "Sort Order", name: "sortOrder", widget: "number", value_type: "int", min: 1}
-      - {label: "Hidden", name: "hidden", widget: "boolean", default: false}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Dates", name: "dates", widget: "string" }
+      - { label: "Location", name: "location", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - {
+          label: "Cover Image",
+          name: "coverImage",
+          widget: "image",
+          required: true,
+        }
+      - {
+          label: "Sort Order",
+          name: "sortOrder",
+          widget: "number",
+          value_type: "int",
+          min: 1,
+        }
+      - { label: "Hidden", name: "hidden", widget: "boolean", default: false }
