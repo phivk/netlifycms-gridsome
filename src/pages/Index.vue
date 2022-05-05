@@ -54,7 +54,7 @@ query {
       }
     }
   },
-  homePaintings: allPainting( filter: { title: { eq: "Twice as nice" }}) {
+  homePaintings: allPainting( filter: { featured: { eq: true }}) {
     edges {
       node {
         title
