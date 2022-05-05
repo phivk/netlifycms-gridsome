@@ -96,7 +96,7 @@ export default {
 
 <style scoped>
 img {
-  max-height: 100vh;
+  max-height: 90vh;
 }
 @media (min-width: 30em) {
   .w-50-ns-i {
